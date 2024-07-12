@@ -37,7 +37,6 @@ https://www.figma.com/file/bSqhBBS9LdOehdEkJ6frDz/Teste-Frontend?node-id=0%3A1
 - Clean Code
 
 
-
 ### Será um diferencial
 
 - Usar Node.js / Mongo para a persistência dos dados.

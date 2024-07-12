@@ -19,14 +19,14 @@ services:
     environment:
       MONGO_URL: mongodb://mongo:27017/cadastro
 
-  frontend:
-    build:
-      context: ./frontend
-    container_name: frontend
-    ports:
-      - "80:80"
-    depends_on:
-      - backend
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #   container_name: frontend
+  #   ports:
+  #     - "80:80"
+  #   depends_on:
+  #     - backend
 
 volumes:
   mongo-data:
